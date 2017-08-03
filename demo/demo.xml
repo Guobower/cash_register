@@ -1,0 +1,163 @@
+<odoo>
+  <data>
+    <record id="register0" model="cash.register">
+      <field name="make">Sharp</field>
+      <field name="model">XEA-407</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">An advanced system that offers many features, the Sharp XEA-407 works in conjunction with QuickBooks Pro to keep track of sales. With a numeric display for the employee as well as the consumer and an oversized cash drawer, the system makes selling simple. Look up over 7,000 prices and keep track with an SD card slot for backing up data.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg0.JPG"/>
+      <field name="value">340</field>
+    </record>
+
+    <record id="register1" model="cash.register">
+      <field name="make">Casio</field>
+      <field name="model">PCR-T500</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">Pre-program 25 different department keys to make cashing out easy with the Casio PCR-T500 register. With a built-in thermal printer, SD card slot, and the ability to look up 3,000 PLU prices, the Casio has it all. A small cash drawer works well for space-saving purposes.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg1.JPG"/>
+    </record>
+
+    <record id="register2" model="cash.register">
+      <field name="make">Royal</field>
+      <field name="model">29043X Alpha</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">User friendly and simple to set up, the Royal 29043X Alpha 1000ML cash register lets you customize the machine to allow each employee his or her own identification number to ring up sales. This top-rated register includes an SD card slot, an electronic journal, and a cash drawer including a removable coin tray for ease of use.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg2.JPG"/>
+    </record>
+
+    <record id="register3" model="cash.register">
+      <field name="make">Sharp</field>
+      <field name="model">XEA-106</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">Speedy, silent, and simple to use, the Sharp Electronics XEA-106 model features an exterior with antimicrobial protection, an oversized LED display, and minute-by-minute sales analysis to keep you informed throughout the day. With this design, enjoy the features of a larger register packed into a more portable size.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg3.JPG"/>
+    </record>
+
+    <record id="register4" model="cash.register">
+      <field name="make">Casio</field>
+      <field name="model">TE-3000 SS</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">A sophisticated electronic scanning cash register, the Casio TE-3000 SS includes a Honeywell laser scanner to make ringing up sales effortless. The keyboard has raised keys and 30 different department buttons, and uses flash card technology to back up your data safely. Drop-in loading makes replacing printer tape seamless and simple.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg4.jpg"/>
+    </record>
+
+    <record id="register5" model="cash.register">
+      <field name="make">Samsung</field>
+      <field name="model">ER-290</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">A low-cost option for small businesses, the Samsung ER-290 offers hourly sales reports, programmable keys, and a removable cash drawer. Customize up to 200 PLU numbers and 12 departments, and use the single-station printer to print single or duplicate receipt copies</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg5.JPG"/>
+    </record>
+
+    <record id="register6" model="cash.register">
+      <field name="make">Royal</field>
+      <field name="model">89103T</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">The sleek Royal 89103T register lets you look up over 1,000 prices for convenience. With a clerk ID number system for each employee, the register allows separate codes for each worker to ring up their own sales. The bright LCD display makes it easy for the employee and consumer to monitor sales as they ring up.</field>
+    </record>
+
+    <record id="register7" model="cash.register">
+      <field name="make">Royal</field>
+      <field name="model">Alpha 583CX</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">An electronic cash register that works well for small business needs, the Royal Alpha 583CX includes 99 department key options and the option for 26 different users to sign in and ring up sales. Switch between four different tax rates as necessary, and connect a PC or bar scanner using the external port.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg7.jpeg"/>
+    </record>
+
+    <record id="register8" model="cash.register">
+      <field name="make">Casio</field>
+      <field name="model">PCR-T275</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">A point-of-sale system that uses a thermal printer for receipts and journals, the Casio PCR-T275 register lets you customize your receipts with your business information or logo. Eliminate messy ribbon replacement with this all-in-one system that allows lookup of 100 PLU numbers and up to eight different clerk sign-ins.</field>
+      <field name="image" type="base64" file="cash_register/static/img/reg8.jpg"/>
+    </record>
+
+    <record id="register9" model="cash.register">
+      <field name="make">Royal</field>
+      <field name="model">CCM1000</field>
+      <field name="owner_id" ref="base.main_company"/>
+      <field name="description">Advanced technology makes the Royal CCM1000 a necessity for business owners. With features like a built-in credit card payment system and an optional check reader and PIN pad, clerks can securely process checks, debit cards, credit cards, and cash. The complete system offers programming of 999 PLU numbers and works with QuickBooks Pro for accounting purposes.</field>
+    </record>
+
+    <record id="count00" model="cash.count">
+      <field name="till_id" ref="register0"/>
+      <field name="date">2017-03-10</field>
+      <field name="one_cent">62</field>
+      <field name="two_cent">17</field>
+      <field name="five_cent">32</field>
+      <field name="ten_cent">12</field>
+      <field name="twenty_cent">32</field>
+      <field name="fifty_cent">7</field>
+      <field name="ones">8</field>
+      <field name="twos">12</field>
+      <field name="fives">4</field>
+      <field name="tens">6</field>
+      <field name="twenties">2</field>
+      <field name="fifties">2</field>
+      <field name="hundreds">1</field>
+      <field name="two_hundreds">0</field>
+      <field name="five_hundreds">0</field>
+    </record>
+
+    <record id="count01" model="cash.count">
+      <field name="till_id" ref="register0"/>
+      <field name="date">2017-06-10</field>
+      <field name="one_cent">34</field>
+      <field name="two_cent">47</field>
+      <field name="five_cent">23</field>
+      <field name="ten_cent">18</field>
+      <field name="twenty_cent">24</field>
+      <field name="fifty_cent">9</field>
+      <field name="ones">30</field>
+      <field name="twos">25</field>
+      <field name="fives">14</field>
+      <field name="tens">2</field>
+      <field name="twenties">4</field>
+      <field name="fifties">1</field>
+      <field name="hundreds">0</field>
+      <field name="two_hundreds">0</field>
+      <field name="five_hundreds">0</field>
+    </record>
+
+    <record id="count10" model="cash.count">
+      <field name="till_id" ref="register1"/>
+      <field name="date">2017-07-10</field>
+      <field name="one_cent">0</field>
+      <field name="two_cent">2</field>
+      <field name="five_cent">3</field>
+      <field name="ten_cent">8</field>
+      <field name="twenty_cent">4</field>
+      <field name="fifty_cent">5</field>
+      <field name="ones">10</field>
+      <field name="twos">5</field>
+      <field name="fives">60</field>
+      <field name="tens">5</field>
+      <field name="twenties">7</field>
+      <field name="fifties">3</field>
+      <field name="hundreds">2</field>
+      <field name="two_hundreds">1</field>
+      <field name="five_hundreds">0</field>
+    </record>
+
+    <record id="count11" model="cash.count">
+      <field name="till_id" ref="register1"/>
+      <field name="date">2017-07-12</field>
+      <field name="one_cent">0</field>
+      <field name="two_cent">5</field>
+      <field name="five_cent">7</field>
+      <field name="ten_cent">3</field>
+      <field name="twenty_cent">12</field>
+      <field name="fifty_cent">19</field>
+      <field name="ones">18</field>
+      <field name="twos">13</field>
+      <field name="fives">16</field>
+      <field name="tens">4</field>
+      <field name="twenties">6</field>
+      <field name="fifties">7</field>
+      <field name="hundreds">0</field>
+      <field name="two_hundreds">0</field>
+      <field name="five_hundreds">0</field>
+    </record>
+
+  </data>
+</odoo>
