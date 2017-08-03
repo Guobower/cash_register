@@ -1,0 +1,87 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="cash_register.search">
+      <field name="name">cash_register.search</field>
+      <field name="model">cash.register</field>
+      <field name="arch" type="xml">
+        <search>
+          <group string="Group By">
+            <filter name="by_make" string="Make"
+                    context="{'group_by': 'make'}"/>
+            <filter name="by_model" string="Model"
+                    context="{'group_by': 'model'}"/>
+            <filter name="by_owner" string="Owner"
+                    context="{'group_by': 'owner_id'}"/>
+          </group>
+          <field name="name"/>
+          <field name="make"/>
+          <field name="model"/>
+          <field name="owner_id"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="cash_register.list">
+      <field name="name">cash_register.list</field>
+      <field name="model">cash.register</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="owner_id"/>
+          <field name="last_counted"/>
+          <field name="last_balance"/>
+          <field name="make"/>
+          <field name="model"/>
+          <!--<field name="summary"/>-->
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="cash_register.form">
+      <field name="name">cash_register.form</field>
+      <field name="model">cash.register</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group col="4">
+              <group colspan="3">
+                <field name="name"/>
+                <field name="make"/>
+                <field name="model"/>
+                <field name="owner_id"/>
+                <field name="value"/>
+                <field name="last_counted"/>
+                <field name="last_balance"/>
+                <field name="description"/>
+              </group>
+              <group>
+                 <field name="image" widget='image' nolabel="1"
+                       options='{"size": [300, 300]}' class="oe_right"/>
+              </group>
+            </group>
+            <notebook>
+              <page string="Till Counts">
+                <field name="count_ids"/>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="cash_register.action_window">
+      <field name="name">Register</field>
+      <field name="res_model">cash.register</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Top menu item -->
+    <menuitem name="Cash Registers" id="cash_register.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Registers" id="cash_register.menu_1" parent="cash_register.menu_root"/>
+     <!--actions -->
+    <menuitem name="List" id="cash_register.menu_1_list" parent="cash_register.menu_1"
+              action="cash_register.action_window"/>
+
+  </data>
+</odoo>

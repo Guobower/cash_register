@@ -1,0 +1,48 @@
+<odoo>
+  <data>
+    <!--ACTIONS-->
+    <record model="ir.actions.act_window" id="cash_register.action_window">
+      <field name="name">Register</field>
+      <field name="res_model">cash.register</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="cash_register.till_count_action">
+      <field name="name">Till Count</field>
+      <field name="res_model">cash.count</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="generate_count_action">
+      <field name="name">Generate Count</field>
+      <field name="res_model">count.generator</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+    </record>
+
+    <!--MENU-->
+
+    <!-- Top menu item -->
+    <menuitem name="Cash Registers" id="cash_register.menu_root"/>
+
+    <!-- menu categories -->
+    <menuitem name="Registers" id="cash_register.menu_1"
+              parent="cash_register.menu_root"/>
+
+     <!--action items -->
+    <menuitem name="List" id="cash_register.menu_1_list"
+              parent="cash_register.menu_1"
+              action="cash_register.action_window"/>
+
+
+    <menuitem name="Till Count" id="cash_register.menu_2"
+              parent="cash_register.menu_1"
+              action="cash_register.till_count_action"/>
+
+    <menuitem id="fake_till_count"
+              name="Generate Count"
+              parent="cash_register.menu_1"
+              action="generate_count_action"/>
+
+  </data>
+</odoo>

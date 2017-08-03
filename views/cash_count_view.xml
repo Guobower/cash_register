@@ -1,0 +1,85 @@
+
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="cash_register.till_count_search">
+      <field name="name">cash_count.search</field>
+      <field name="model">cash.count</field>
+      <field name="arch" type="xml">
+        <search>
+            <group string="Group By">
+              <filter name="by_till" string="Till" context="{'group_by': 'till_id'}"/>
+            </group>
+            <field name="name"/>
+            <field name="till_id"/>
+            <field name="date"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="cash_register.till_count_form">
+      <field name="name">cash_count.form</field>
+      <field name="model">cash.count</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <group>
+                <field name="till_id"/>
+                <field name="date"/>
+              </group>
+              <group>
+                <field name="currency_id"/>
+                <field name="balance"/>
+              </group>
+            </group>
+            <notebook>
+              <page string="Bills">
+                 <group class="oe_subtotal_footer">
+                  <field name="fives"/>
+                  <field name="tens"/>
+                  <field name="twenties"/>
+                  <field name="fifties"/>
+                  <field name="hundreds"/>
+                  <field name="two_hundreds"/>
+                  <field name="five_hundreds"/>
+                  <field name="bill_total"
+                         class="oe_subtotal_footer_separator"/>
+                </group>
+              </page>
+              <page string="Coins">
+                <group class="oe_subtotal_footer">
+                  <field name="one_cent"/>
+                  <field name="two_cent"/>
+                  <field name="five_cent"/>
+                  <field name="ten_cent"/>
+                  <field name="twenty_cent"/>
+                  <field name="fifty_cent"/>
+                  <field name="ones"/>
+                  <field name="twos"/>
+                  <field name="coin_total"
+                         class="oe_subtotal_footer_separator"/>
+                </group>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="cash_register.till_count_tree">
+      <field name="name">cash_count.tree</field>
+      <field name="model">cash.count</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="till_id"/>
+          <field name="date"/>
+          <field name="bill_total"/>
+          <field name="coin_total"/>
+          <field name="balance"/>
+        </tree>
+      </field>
+    </record>
+
+
+  </data>
+</odoo>

@@ -1,0 +1,44 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="cash_register.count_generate_form">
+        <field name="name">count_generate.form</field>
+        <field name="model">count.generator</field>
+        <field name="arch" type="xml">
+          <form>
+            <field name="state" invisible="1"/>
+            <group states="before">
+              <field name="till"/>
+              <field name="balance"/>
+              <field name="fifties"/>
+              <field name="hundreds"/>
+              <field name="two_hundreds"/>
+              <field name="five_hundreds"/>
+            </group>
+            <div states="after">
+              <h2>Random Till Count will result in</h2>
+              <p>
+                <field name="odoo_draft"/>
+              </p>
+            </div>
+            <footer states="before">
+              <button name="compute_till"
+                      string="Generate"
+                      type="object"
+                      class="oe_highlight"/>
+
+            </footer>
+            <footer states="after">
+              <button name="confirm_result" string="Confirm"
+                      type="object" class="oe_highligh"/> or
+              <button name="reset_form" string="Reset"
+                      type="object" class="oe_highlight"/>
+            </footer>
+
+            <footer>
+
+            </footer>
+          </form>
+        </field>
+    </record>
+  </data>
+</odoo>
