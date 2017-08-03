@@ -1,0 +1,256 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* cash_register
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-29 20:29+0000\n"
+"PO-Revision-Date: 2017-07-29 20:29+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_balance
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_bill_total
+msgid "Bill total"
+msgstr "Papier insgesamt"
+
+#. module: cash_register
+#: model:ir.ui.view,arch_db:cash_register.till_count_form
+msgid "Bills"
+msgstr "Bills"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_count_ids
+msgid "Cash Counts"
+msgstr "Bargeld zählt"
+
+#. module: cash_register
+#: model:ir.model,name:cash_register.model_cash_register
+msgid "Cash Register"
+msgstr "Kasse"
+
+#. module: cash_register
+#: model:ir.ui.menu,name:cash_register.menu_root
+msgid "Cash Registers"
+msgstr "Kassen"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_coin_total
+msgid "Coin total"
+msgstr "Münzsumme"
+
+#. module: cash_register
+#: model:ir.ui.view,arch_db:cash_register.till_count_form
+msgid "Coins"
+msgstr "Coins"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_create_uid
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_create_date
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_create_date
+msgid "Created on"
+msgstr "Angelegt am"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_date
+msgid "Date"
+msgstr "Datum"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_description
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_display_name
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_fifties
+msgid "Fifties"
+msgstr "Fünfziger"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_fifty_cent
+msgid "Fifty cent"
+msgstr "Fünfzig Cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_five_cent
+msgid "Five cent"
+msgstr "Fünf Cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_five_hundreds
+msgid "Five hundreds"
+msgstr "Fünfhunderte"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_fives
+msgid "Fives"
+msgstr "Fünfe"
+
+#. module: cash_register
+#: model:ir.ui.view,arch_db:cash_register.search
+#: model:ir.ui.view,arch_db:cash_register.till_count_search
+msgid "Group By"
+msgstr "Gruppiert nach..."
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_hundreds
+msgid "Hundreds"
+msgstr "Hunderte"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_id
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_id
+msgid "ID"
+msgstr "ID"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_image
+msgid "Image"
+msgstr "Bild"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count___last_update
+#: model:ir.model.fields,field_description:cash_register.field_cash_register___last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_write_uid
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_write_date
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: cash_register
+#: model:ir.ui.menu,name:cash_register.menu_1_list
+msgid "List"
+msgstr "Liste"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_make
+#: model:ir.ui.view,arch_db:cash_register.search
+msgid "Make"
+msgstr "Make"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_model
+#: model:ir.ui.view,arch_db:cash_register.search
+msgid "Model"
+msgstr "Modell"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_name
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_name
+msgid "Name"
+msgstr "Name"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_one_cent
+msgid "One cent"
+msgstr "Ein Cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_ones
+msgid "Ones"
+msgstr "Einsen"
+
+#. module: cash_register
+#: model:ir.actions.act_window,name:cash_register.action_window
+msgid "Register"
+msgstr "Kasse"
+
+#. module: cash_register
+#: model:ir.ui.menu,name:cash_register.menu_1
+msgid "Registers"
+msgstr "Kassen"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_summary
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_ten_cent
+msgid "Ten cent"
+msgstr "Zehn Cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_tens
+msgid "Tens"
+msgstr "Zehner"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_till_id
+#: model:ir.ui.view,arch_db:cash_register.till_count_search
+msgid "Till"
+msgstr "Kasse"
+
+#. module: cash_register
+#: model:ir.actions.act_window,name:cash_register.till_count_action
+#: model:ir.model,name:cash_register.model_cash_count
+#: model:ir.model,name:cash_register.model_till_count
+#: model:ir.ui.menu,name:cash_register.menu_2
+msgid "Till Count"
+msgstr "Kasse Zählung"
+
+#. module: cash_register
+#: model:ir.ui.view,arch_db:cash_register.form
+msgid "Till Counts"
+msgstr "Till Counts"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_twenties
+msgid "Twenties"
+msgstr "Zwanziger"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_twenty_cent
+msgid "Twenty cent"
+msgstr "Zwanzig Cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_two_cent
+msgid "Two cent"
+msgstr "Zwei cent"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_two_hundreds
+msgid "Two hundreds"
+msgstr "Zweihundert"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_count_twos
+msgid "Twos"
+msgstr "Zweier"
+
+#. module: cash_register
+#: model:ir.model.fields,field_description:cash_register.field_cash_register_value
+msgid "Value"
+msgstr "Wert"
