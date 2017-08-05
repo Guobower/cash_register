@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import models, fields, api
 from datetime import datetime
-# from odoo.exceptions import ValidationError
-# import re
 
 
 class CashRegister(models.Model):
@@ -56,7 +54,12 @@ class TillCount(models.Model):
     currency_id = fields.Many2one('res.currency',
                                   string='Currency',
                                   default=lambda x: x.env.ref("base.EUR"))
-    date = fields.Date(default=datetime.today().date())
+
+    @staticmethod
+    def _today():
+        return datetime.today()
+    
+    date = fields.Date(default=_today)
 
     # Coins
     one_cent = fields.Integer(string="1c")
