@@ -22,7 +22,11 @@ With a properly configured base Odoo environment
 
 1. Ensure that the configuration file includes the location of this module in
 the "addons_path".
+
 2. Run the Odoo server
+
 3. Active *Developer Mode* via **Settings**
+
 4. Refresh the browser, **Apps > Update Module List**
+
 5. Install *cash_register*...
