@@ -18,6 +18,8 @@ guide on Odoo 10 server deployment please visit the following link;
 
 https://www.linode.com/docs/websites/cms/install-odoo-10-on-ubuntu-16-04
 
+and a summary of this site can be found in the root of this project in *odoo_setup.py*
+
 With a properly configured base Odoo environment
 
 1. Ensure that the configuration file includes the location of this module in the "addons_path".
