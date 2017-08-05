@@ -13,7 +13,7 @@ def random_partition(n, parts):
     partition of n with v copies of k.
 
     Example: if (n, parts) = (5, [1,2,3]) a possible output could be any of
-    {1: 0, 2: 1,  3: 1},
+    {1: 0, 2: 1, 3: 1},
     {1: 2, 2: 0, 3: 1},
     {1: 1, 2: 2, 3: 0},
     {1: 3, 2: 1, 3: 0},
