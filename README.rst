@@ -20,8 +20,7 @@ https://www.linode.com/docs/websites/cms/install-odoo-10-on-ubuntu-16-04
 
 With a properly configured base Odoo environment
 
-1. Ensure that the configuration file includes the location of this module in
-the "addons_path".
+1. Ensure that the configuration file includes the location of this module in the "addons_path".
 
 2. Run the Odoo server.
 
