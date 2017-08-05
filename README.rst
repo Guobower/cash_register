@@ -1,7 +1,7 @@
 Summary
 =======
 
-The cash register module is an Odoo module (Version 10.0) intended to improve
+The cash register module is an Odoo (Version 10.0) module intended to improve
 the experience of recording till counts. It provides the option to manually
 count and enter the contents of a till, or simply provide a balance with rough
 estimates of the contents while while randomly generating counts for the
