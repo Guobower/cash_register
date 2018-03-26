@@ -2,7 +2,7 @@
 from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 from ast import literal_eval
-from utils import random_partition
+from .utils import random_partition
 
 
 class CountGenerator(models.TransientModel):
