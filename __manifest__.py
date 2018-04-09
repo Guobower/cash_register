@@ -1,5 +1,4 @@
 # noinspection PyStatementEffect
-# -*- coding: utf-8 -*-
 {
     'name': "Cash Register",
     'summary': """Keep track balance counts""",
@@ -15,7 +14,6 @@
         'views/cash_count_view.xml',
         'views/count_generate_view.xml',
         'views/menu.xml',
-        'views/templates.xml',
     ],
     'demo': [
         'demo/demo.xml',

@@ -23,7 +23,7 @@ def random_partition(n, parts):
     """
     res = {}
     for p in reversed(parts[1:]):
-        res[p] = randint(0, n/p)
+        res[p] = randint(0, n // p)
         n -= p * res[p]
 
     res[1] = n
